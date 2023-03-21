@@ -21,7 +21,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 18000
-ModificationTime: 1679433968
+ModificationTime: 1679434700
 PfmFamily: 65
 TTFWeight: 500
 TTFWidth: 5
@@ -60,7 +60,7 @@ Lookup: 1 0 0 "'salt' Stylistic Alternatives in Latin lookup 0" { "'salt' Stylis
 Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 1" { "'calt' Contextual Alternates in Latin lookup 1 subtable"  } ['calt' ('latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 2" { "'liga' Standard Ligatures in Latin lookup 2 subtable"  } ['liga' ('latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 3" { "Single Substitution lookup 3 subtable"  } []
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable" [150,15,0] "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,2] } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable" [150,15,0] "'kern' Horizontal Kerning in Latin lookup 0-1" [150,15,2] "'kern' Horizontal Kerning in Latin lookup 0-2" [150,15,2] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'calt' Contextual Alternates in Latin lookup 1 subtable" 0 0 0 1
@@ -14302,6 +14302,7 @@ SplineSet
  187.999511719 533.999511719 187.999511719 533.999511719 162 585 c 1,14,15
 EndSplineSet
 Validated: 1
+Kerns2: 262 -116 "'kern' Horizontal Kerning in Latin lookup 0-2" 263 -98 "'kern' Horizontal Kerning in Latin lookup 0-2" 264 -80 "'kern' Horizontal Kerning in Latin lookup 0-2" 265 -103 "'kern' Horizontal Kerning in Latin lookup 0-2" 266 -165 "'kern' Horizontal Kerning in Latin lookup 0-2" 267 -93 "'kern' Horizontal Kerning in Latin lookup 0-2" 268 -105 "'kern' Horizontal Kerning in Latin lookup 0-2" 269 -104 "'kern' Horizontal Kerning in Latin lookup 0-2" 270 -96 "'kern' Horizontal Kerning in Latin lookup 0-2" 272 -77 "'kern' Horizontal Kerning in Latin lookup 0-2" 273 -114 "'kern' Horizontal Kerning in Latin lookup 0-2" 274 -89 "'kern' Horizontal Kerning in Latin lookup 0-2" 275 -94 "'kern' Horizontal Kerning in Latin lookup 0-2" 276 -93 "'kern' Horizontal Kerning in Latin lookup 0-2" 277 -114 "'kern' Horizontal Kerning in Latin lookup 0-2" 278 -117 "'kern' Horizontal Kerning in Latin lookup 0-2" 279 -99 "'kern' Horizontal Kerning in Latin lookup 0-2" 280 -126 "'kern' Horizontal Kerning in Latin lookup 0-2" 281 -98 "'kern' Horizontal Kerning in Latin lookup 0-2" 282 -113 "'kern' Horizontal Kerning in Latin lookup 0-2" 283 -110 "'kern' Horizontal Kerning in Latin lookup 0-2" 284 -104 "'kern' Horizontal Kerning in Latin lookup 0-2" 285 -98 "'kern' Horizontal Kerning in Latin lookup 0-2" 286 -106 "'kern' Horizontal Kerning in Latin lookup 0-2" 287 -117 "'kern' Horizontal Kerning in Latin lookup 0-2" 288 -143 "'kern' Horizontal Kerning in Latin lookup 0-2" 289 -82 "'kern' Horizontal Kerning in Latin lookup 0-2" 290 -82 "'kern' Horizontal Kerning in Latin lookup 0-2" 291 -107 "'kern' Horizontal Kerning in Latin lookup 0-2" 292 -118 "'kern' Horizontal Kerning in Latin lookup 0-2" 293 -108 "'kern' Horizontal Kerning in Latin lookup 0-2" 294 -101 "'kern' Horizontal Kerning in Latin lookup 0-2"
 EndChar
 
 StartChar: afii10021
@@ -14936,7 +14937,7 @@ StartChar: afii10033
 Encoding: 311 1055 245
 Width: 993
 GlyphClass: 1
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -16046,7 +16047,7 @@ EndChar
 
 StartChar: afii10048
 Encoding: 326 1070 260
-Width: 1239
+Width: 1123
 GlyphClass: 1
 Flags: W
 LayerCount: 2
@@ -16198,12 +16199,11 @@ SplineSet
  67 55 67 55 73 52.5 c 128,-1,192
  79 50 79 50 82 43 c 1,130,131
 EndSplineSet
-Validated: 37
 EndChar
 
 StartChar: afii10049
 Encoding: 327 1071 261
-Width: 676
+Width: 624
 GlyphClass: 1
 Flags: W
 LayerCount: 2
@@ -16303,7 +16303,6 @@ SplineSet
  455 300 455 300 463 300.5 c 128,-1,121
  471 301 471 301 477 302 c 1,104,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: afii10065
